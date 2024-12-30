@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video</title>
+    <link rel="icon" href="pictures/video.png">
+</head>
+<style>
+    h1 {
+        color: cadetblue;
+    }
+
+    .see {
+        /* background-video: url(video/gaza.mp4); */
+        /* background-position: center;
+        background-size: center; */
+        width: 100%;
+        min-height: 100vh;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        overflow-x: scroll;
+        overflow-x: auto;
+        min-width: 80%;
+    }
+
+    .see video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+    }
+    
+</style>
+<body>
+    <!-- <h1>dad</h1> -->
+     <div class="see">
+    <video class="vid" controls autoplay>
+        <source src="video/gaza.mp4">
+    </video>
+     </div>
+    
+</body>
+</html>
