@@ -47,6 +47,16 @@ body {
     margin: 0;
 }
 
+h1:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+h2:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
 #quiz {
     padding: 10px 0;
 }
